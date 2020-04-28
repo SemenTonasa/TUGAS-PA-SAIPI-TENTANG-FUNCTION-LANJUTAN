@@ -1,0 +1,44 @@
+#include <iostream>
+using namespace std;
+
+//ini adalah prototype function
+
+void perkalian (int angka2, int angka3)
+{
+	cout << (angka2 * angka3);
+}
+
+void penjumlahan (int f, int g)
+{
+	cout << (f + g);
+}
+
+double pembagian (double h, double i)
+{
+	cout << (h / i);
+}
+
+void pengurangan (int d, int e)
+{
+	cout << (d - e);
+}
+
+int main ()
+{
+	cout << "Nama: Muhammad Yusfi Khatami" <<endl;
+	cout << "NIM: ETE10190110" <<endl;
+	cout << "Mata Kuliahl: Bahasa Pemrograman" <<endl;
+	cout << endl;
+	cout << "Ini adalah tugas Function Lanjutan" <<endl;
+	cout << "Hasil function perkalian" <<endl;
+	perkalian (2,5);
+	cout << endl;
+	cout << "Hasil function penjumlahan" <<endl;
+	penjumlahan (3,6);
+	cout << endl;
+	cout << "Hasil function pembagian" <<endl;
+	pembagian (22.1, 11.6);
+	cout << endl;
+	cout << "Hasil function pengurangan" <<endl;
+	pengurangan (6,5);
+}
